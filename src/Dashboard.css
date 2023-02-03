@@ -1,0 +1,43 @@
+.dashboard {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/images/hero-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+  }
+  .hyperlink {
+    color: #ac0179;
+    text-decoration: none;
+    transition: 200ms;
+  }
+
+  .dashboard__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 600px;
+    max-width: 80%;
+    background-color: linear-gradient(to right, #ff00b3, #ff8c8c);
+    border: #ffffff 3px solid;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px rgb(255, 255, 255);
+  }
+
+  .dashboard__btn {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  background: linear-gradient(to right, #ff00b3, #ff8c8c);
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 18px;
+}
+
+  .dashboard div {
+    margin-top: 7px;
+  }

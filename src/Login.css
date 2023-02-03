@@ -1,0 +1,96 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./assets/images/hero-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+.hyperlink {
+  color: #ac0179;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: linear-gradient(to right, #ff00b3, #ff8c8c);
+  border: #ffffff 3px solid;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px rgb(255, 255, 255);
+}
+.login__textBox {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  border: #ffffff 3px solid;
+  background-color: #ffffff00;
+  border-radius: 5px;
+}
+.login__btn {
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  background-color: #ff00b3;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 18px;
+}
+  .login__btn:hover {
+  opacity: .95;
+  box-shadow: #1b0021 0px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.login__google {
+  background-color: #1b0021;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  font-size: 18px;
+}
+.login__gradient {
+  background: linear-gradient(to right, #ff00b3, #ff8c8c);
+  transition: 200ms;
+}
+.login__gradient:hover {
+  background: linear-gradient(to right, #ff00b3, #ff8c8c);
+  opacity: 0.75;
+  scale: 1.005;
+  box-shadow: #1b0021 0px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.login div {
+  margin-top: 7px;
+}
+
+.login__googleIcon img {
+  max-height: 20px;
+  max-width: 20px;
+  margin-right: 12px;
+  margin-top: -9px;
+  padding: 0;
+}
+
+input::-webkit-input-placeholder {
+  color: #ffffff;
+  }
+  
+  input:-moz-placeholder {
+  color: #ffffff;
+  }
+  
+  input::-moz-placeholder {
+  color: #ffffff;
+  }
+  
+  input:-ms-input-placeholder {
+  color: #ffffff;
+  }
